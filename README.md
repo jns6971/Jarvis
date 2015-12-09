@@ -15,6 +15,9 @@ Home-Automation Web Application
 - Password is ```Pawliver```
 - ```cd /var/www/jarvis/```
 - ```git pull```
+- if raspberry pi npm or bower needs to be updated:
+- ```sudo npm install```
+- ```sudo bower install --allow-root```
 
 ## Contents
 - Gulp (sass, browserify & watch)
