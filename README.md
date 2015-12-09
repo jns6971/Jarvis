@@ -9,7 +9,9 @@ Home-Automation Web Application
 
 ## Update Raspberry Pi
 - Make sure the device is powered on.
-- SSH using Mac ```ssh pi@10.0.0.8```
+- SSH using Mac 
+- ```ssh pi@10.0.0.8``` for ethernet
+- ```ssh pi@10.0.0.13``` for wifi
 - Password is ```Pawliver```
 - ```cd /var/www/jarvis/```
 - ```git pull```
