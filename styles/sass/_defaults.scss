@@ -1,4 +1,28 @@
 /*------------------------------------*\
+    $DEBUG
+\*------------------------------------*/
+/**
+ * Debug mode will visually highlight any potential markup/accessibility quirks
+ * in the browser. Set to `true` or `false`.
+ */
+$debug-mode: false !default;
+
+
+
+
+
+/*------------------------------------*\
+    $BORDER-BOX
+\*------------------------------------*/
+/**
+ * Do you want all elements to adopt `box-sizing:border-box;` as per
+ * paulirish.com/2012/box-sizing-border-box-ftw ?
+ */
+$global-border-box: true !default;
+
+
+
+/*------------------------------------*\
     $BASE
 \*------------------------------------*/
 /**
@@ -39,3 +63,14 @@ $h6-size:           14px!default; // .zeta
 
 $milli-size:        12px!default;
 $micro-size:        10px!default;
+
+
+
+
+/*------------------------------------*\
+    $SPACING
+\*------------------------------------*/
+
+$base-spacing-unit: 40px !default;
+$base-spacing-unit-custom: 10 !default;
+$half-spacing-unit: $base-spacing-unit / 2!default;
