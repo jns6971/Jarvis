@@ -17,7 +17,6 @@
     "jquery": "~2.1.4",
     "modernizr": "~2.8.3",
     "foundation": "~5.5.3",
-    "font-awesome": "fontawesome#~4.5.0",
-    "reset-css": "~2.0.2011012602"
+    "font-awesome": "fontawesome#~4.5.0"
   }
 }
