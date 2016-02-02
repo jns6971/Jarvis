@@ -12,7 +12,7 @@ Home-Automation Web Application
 - SSH using Mac 
 - ```ssh pi@10.0.0.8``` for raspbery pi on ethernet
 - ```ssh pi@10.0.0.13``` for raspbery pi on wifi
-- Password is ```Pawliver```
+- Lock in with Jordan's Raspberry Pi password
 - ```cd /var/www/jarvis/```
 - ```git pull```
 - if raspberry pi npm or bower needs to be updated:
