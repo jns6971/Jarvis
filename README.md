@@ -10,15 +10,12 @@ Home-Automation Web Application
 ## Update Raspberry Pi
 - Make sure the device is powered on.
 - SSH using Mac 
-- ```ssh pi@10.0.0.8``` for raspbery pi on ethernet
-- ```ssh pi@10.0.0.13``` for raspbery pi on wifi
+- ```ssh pi@10.0.0.15``` for raspbery pi (static ip address)
 - Lock in with Jordan's Raspberry Pi password
-- ```cd /var/www/jarvis/```
-- ```git pull```
+- ```cd /var/www/jarvis/``` then ```git pull```
 - if raspberry pi npm or bower needs to be updated:
 - ```sudo npm install```
 - ```sudo bower install --allow-root```
 
-## Contents
-- Gulp (sass, browserify & watch)
-- Inuint Framework
+## Build
+- Gulp
