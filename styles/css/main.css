@@ -377,12 +377,11 @@ th {
 
 
 
-/* Custom Stlyles
+/* Jarvis animation
  ========================================================================== */
 
 body {
-  background: black;
-  color: #02feff;
+  background: #000;
 }
 
 
@@ -723,6 +722,7 @@ body{
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
+  color: #fff;
 }
 
 header{
@@ -734,11 +734,58 @@ header h1{
   text-align: center;
   text-shadow: 0 0 10px rgb(2, 255, 255);
   animation: text_flicker 1s infinite;
+  color: #02feff;
 }
 
 .jarvis-header{
   margin: 0 auto;
 }
+
+
+
+.btn-container{
+  margin: 0 10px 20px;
+}
+
+.btn-group{
+  width: 50%;
+  float: left;
+}
+
+.btn{
+  color: #000;
+  padding: 10px 24px;
+  width: 100%;
+  color: rgba(2, 255, 255, 0.6);
+  background-color: black;
+  border: 1px solid rgba(2, 255, 255, 0.6);
+  outline: none;
+  -webkit-transition: color .15s ease-in-out, border .15s ease-in-out;
+  transition: color .15s ease-in-out, border .15s ease-in-out;
+}
+
+.btn:hover{
+  color:  #02feff;
+  border: 1px solid #02feff;
+}
+
+.btn:active{
+  box-shadow: 0 0 10px rgba(150, 255, 255, 0.5)
+}
+
+.btn:hover, .btn:focus, .btn.active{
+  animation: button_flicker 1s infinite;
+}
+
+.btn-row{
+  overflow: hidden;
+  margin: 10px 0 20px;
+}
+
+label{
+  font-weight: bold;
+}
+
 
 @keyframes text_flicker {
   0% {
@@ -755,22 +802,17 @@ header h1{
   }
 }
 
-.btn-container{
-  margin: 0 10px 20px;
-}
-
-button, .btn{
-  color: #000;
-  padding: 10px 24px;
-  float: left;
-  width: 50%;
-}
-
-.btn-row{
-  overflow: hidden;
-  margin: 10px 0 20px;
-}
-
-label{
-  font-weight: bold;
+@keyframes button_flicker {
+  0% {
+    border: 1px solid rgba(2, 255, 255, 1); color: rgba(2, 255, 255, 1);
+  }
+  33% {
+    border: 1px solid rgba(2, 255, 255, 0.85); color: rgba(2, 255, 255, 0.85);
+  }
+  66% {
+    border: 1px solid rgba(2, 255, 255, 0.9); color: rgba(2, 255, 255, 0.9);
+  }
+  100% {
+    border: 1px solid rgba(2, 255, 255, 0.95); color: rgba(2, 255, 255, 0.95);
+  }
 }
